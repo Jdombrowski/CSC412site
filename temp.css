@@ -1,0 +1,127 @@
+@import url(http://fonts.googleapis.com/css?family=Antic+Slab);
+/*TODO add form funcionality, update and add resume, form validation
+  working button for forms, working panels*/
+body {
+  height:100%;
+  text-align: center;	
+  background: #DDCCEE; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(white, #3E647F); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white, #3E647F); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white, #3E647F); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white, #3E647F); /* Standard syntax */
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: "futura";
+  font-size:80px;
+  font-weight: 425;
+  color:#DDCCEE;
+  text-transform: uppercase;
+  letter-spacing: 0em;
+}
+h2 {
+  font-family: "din-condensed-web";
+  font-size:30px;
+  font-weight: 400;
+  color:#DDCCEE;
+  text-transform: uppercase;
+  letter-spacing: 0em;
+}
+
+.inputGroup{
+    height: 100%;
+    background-image: url("ferryb.jpeg");
+}
+.button {
+    background-color: #3E647F;
+    border-color: 2px solid #DDCCEE;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button:hover{
+  opacity: 50%;
+  size = 1.5;
+}
+.panel-body{
+  font-family: "din-condensed-web";
+  font-size:14px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+
+.lead {
+	color:#DDCCEE;
+}
+
+/* Custom container */
+.container-full{
+  margin: 0 auto;
+  width: 100%;
+  min-height:100%;
+  background-image: url(SCCarousel.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100%;
+/*  overflow:hidden;*/
+}
+
+.container-full a {
+  color:#efefef;
+  text-decoration:none;
+}
+
+.quoteBox{
+  margin: 0 auto;
+  width: 100%;
+  min-height:100%;
+  background-image:url(ferryb.jpg) ; 
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100%;
+  overflow:hidden;
+}
+
+.v-center {
+  margin-top:0%;
+}
+ .fa {
+    padding: 30px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+.fa:hover {
+        -webkit-transform: scale(1.21);
+        -ms-transform: scale(1.21);
+        transform: scale(1.21);
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+.fa-github{
+    background: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}

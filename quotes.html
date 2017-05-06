@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="temp.css">
+<?php include insertform.php?>
+<?php include displayQuote.php?>
+<div class="container-full2">
+    <form id="contact_form" action="insertform.php" method="post" enctype="multipart/form-data">
+
+        <div class="row">
+            <label for="quote">Quote:</label><br />
+            <textarea id="quote" class="input" name="quote" rows="7" cols="30"></textarea><br />
+        </div>
+
+        <div class="row">
+            <label for="author">Author:</label><br />
+            <input id="author" class="input" name="author" type="text" value="" size="30" /><br />
+        </div>
+        
+        <input type="reset" name ="reset">
+        <input id="submit_button" type="submit" name="submit" value="Submit" />
+    </form>
+</div>
+<form action="displayQuote.php">
+  <input type="submit" value="Display Quotes"/>
+</form>
+</html>

@@ -35,10 +35,23 @@ h2 {
     letter-spacing: 0em;
 }
 
-.inputGroup{
-    height: 100%;
-    background-image: url("ferryb.jpeg");
+.caption{
+    position:absolute;
+    left:0;
+    top:20%;
+    width:100%;
+    text-align: center;
+    color: #000;
 }
+
+.caption span.border{
+    background-color: #111;
+    color:#fff;
+    padding: 10px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
 .button {
     background-color: #3E647F;
     border-color: 2px solid #DDCCEE;

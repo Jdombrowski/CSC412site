@@ -2,37 +2,59 @@
 /*TODO add form funcionality, update and add resume, form validation
   working button for forms, working panels*/
 body {
-  height:100%;
-  text-align: center;	
-  background: #DDCCEE; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(white, #3E647F); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(white, #3E647F); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(white, #3E647F); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(white, #3E647F); /* Standard syntax */
-  background-repeat: no-repeat;
+    height:100%;
+    text-align: center;	
+    /*  background: #DDCCEE;  For browsers that do not support gradients 
+      background: -webkit-linear-gradient(white, #3E647F);  For Safari 5.1 to 6.0 
+      background: -o-linear-gradient(white, #3E647F);  For Opera 11.1 to 12.0 
+      background: -moz-linear-gradient(white, #3E647F);  For Firefox 3.6 to 15 
+      background: linear-gradient(white, #3E647F);  Standard syntax */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(SCCarousel.jpg);
+    margin: auto;
+    width: 100%;
 }
+
+
 
 h1 {
-  font-family: "futura";
-  font-size:80px;
-  font-weight: 425;
-  color:#DDCCEE;
-  text-transform: uppercase;
-  letter-spacing: 0em;
+    font-family: "futura";
+    font-size:80px;
+    font-weight: 425;
+    color:#DDCCEE;
+    text-transform: uppercase;
+    letter-spacing: 0em;
 }
 h2 {
-  font-family: "din-condensed-web";
-  font-size:30px;
-  font-weight: 400;
-  color:#DDCCEE;
-  text-transform: uppercase;
-  letter-spacing: 0em;
+    font-family: "din-condensed-web";
+    font-size:30px;
+    font-weight: 400;
+    color:#DDCCEE;
+    text-transform: uppercase;
+    letter-spacing: 0em;
 }
 
-.inputGroup{
-    height: 100%;
-    background-image: url("ferryb.jpeg");
+.caption{
+    position:absolute;
+     font-family: "din-condensed-web"
+    left:0;
+    top:20%;
+    width:100%;
+    text-align: center;
+    color: #DDCCEE;
+    
 }
+
+.caption span.border{
+    background-color: #111;
+    color:#fff;
+    padding: 10px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
 .button {
     background-color: #3E647F;
     border-color: 2px solid #DDCCEE;
@@ -46,52 +68,52 @@ h2 {
     cursor: pointer;
 }
 .button:hover{
-  opacity: 50%;
-  size = 1.5;
+    opacity: 50%;
+    size = 1.5;
 }
 .panel-body{
-  font-family: "din-condensed-web";
-  font-size:14px;
-  font-weight: 400;
-  letter-spacing: 0em;
+    font-family: "din-condensed-web";
+    font-size:14px;
+    font-weight: 400;
+    letter-spacing: 0em;
 }
 
 .lead {
-	color:#DDCCEE;
+    color:#DDCCEE;
 }
 
 /* Custom container */
 .container-full{
-  margin: 0 auto;
-  width: 100%;
-  min-height:100%;
-  background-image: url(SCCarousel.jpg);
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-size: 100%;
-/*  overflow:hidden;*/
+    margin: 0 auto;
+    width: 100%;
+    min-height:100%;
+    /*  background-image: url(SCCarousel.jpg);
+      background-repeat: no-repeat;
+      background-position: left top;
+      background-size: 100%;*/
+    /*  overflow:hidden;*/
 }
 
 .container-full a {
-  color:#efefef;
-  text-decoration:none;
+    color:#efefef;
+    text-decoration:none;
 }
 
 .quoteBox{
-  margin: 0 auto;
-  width: 100%;
-  min-height:100%;
-  background-image:url(ferryb.jpg) ; 
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-size: 100%;
-  overflow:hidden;
+    margin: 0 auto;
+    width: 100%;
+    min-height:100%;
+    background-image:url(ferryb.jpg) ; 
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100%;
+    overflow:hidden;
 }
 
 .v-center {
-  margin-top:0%;
+    margin-top:0%;
 }
- .fa {
+.fa {
     padding: 30px;
     font-size: 30px;
     width: 30px;
@@ -102,13 +124,13 @@ h2 {
     transition-timing-function: ease;
 }
 .fa:hover {
-        -webkit-transform: scale(1.21);
-        -ms-transform: scale(1.21);
-        transform: scale(1.21);
+    -webkit-transform: scale(1.21);
+    -ms-transform: scale(1.21);
+    transform: scale(1.21);
 }
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+    background: #3B5998;
+    color: white;
 }
 .fa-twitter{
     background: #55ACEE;
@@ -118,8 +140,8 @@ h2 {
     background: white;
 }
 .fa-instagram {
-  background: #125688;
-  color: white;
+    background: #125688;
+    color: white;
 }
 .fa-linkedin {
     background: #007bb5;

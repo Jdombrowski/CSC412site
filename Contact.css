@@ -1,0 +1,10 @@
+body,html {
+    height:1%;
+    text-align: center;	
+    background-repeat: no-repeat;
+    background-size: length;
+    background-position: center;
+    background-image: url(ferryb.jpg);
+    margin: auto;
+    width: 100%;
+}

@@ -34,7 +34,7 @@ h2 {
     left:0;
     top:48%;
     width:100%;
-    color:#DDCCEE;
+    color:#ddccee;
     font-family: "futura";
     text-align: center;
 }
@@ -44,8 +44,18 @@ h2 {
     color:#fff;
     padding: 10px;
     letter-spacing: 10px;
-
     font-size:30px;
+    font-weight: 425;
+    text-transform: uppercase;
+}
+
+.border2{
+    bottom = 0;
+    background-color: #111;
+    color:#fff;
+    padding: 10px;
+    letter-spacing: 10px;
+    font-size:18px;
     font-weight: 425;
     text-transform: uppercase;
 }
@@ -58,23 +68,13 @@ h2 {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
 }
 .button:hover{
     opacity: 50%;
     size = 1.5;
-}
-.panel-body{
-    font-family: "din-condensed-web";
-    font-size:14px;
-    font-weight: 400;
-    letter-spacing: 0em;
-}
-
-.lead {
-    color:#DDCCEE;
 }
 
 /* Custom container */
@@ -93,6 +93,7 @@ h2 {
     margin: 0 auto;
     width: 100%;
     min-height:100%;
+
     background-image:url(ferryb.jpg) ; 
     background-repeat: no-repeat;
     background-position: left top;
@@ -103,6 +104,14 @@ h2 {
 .v-center {
     margin-top:0%;
 }
+
+.mediaRow{
+    bottom: 0;
+    margin:auto;
+    position: fixed;
+    text-align: center;
+}
+
 .fa {
     padding: 30px;
     font-size: 30px;
@@ -127,7 +136,7 @@ h2 {
     color: white;
 }
 .fa-github{
-    background: white;
+    background: light-gray;
 }
 .fa-instagram {
     background: #125688;

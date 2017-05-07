@@ -4,11 +4,6 @@
 body {
     height:100%;
     text-align: center;	
-    /*  background: #DDCCEE;  For browsers that do not support gradients 
-      background: -webkit-linear-gradient(white, #3E647F);  For Safari 5.1 to 6.0 
-      background: -o-linear-gradient(white, #3E647F);  For Opera 11.1 to 12.0 
-      background: -moz-linear-gradient(white, #3E647F);  For Firefox 3.6 to 15 
-      background: linear-gradient(white, #3E647F);  Standard syntax */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -16,8 +11,6 @@ body {
     margin: auto;
     width: 100%;
 }
-
-
 
 h1 {
     font-family: "futura";
@@ -38,21 +31,23 @@ h2 {
 
 .caption{
     position:absolute;
-     font-family: "din-condensed-web"
     left:0;
-    top:20%;
+    top:48%;
     width:100%;
+    color:#DDCCEE;
+    font-family: "futura";
     text-align: center;
-    color: #DDCCEE;
-    
 }
 
 .caption span.border{
     background-color: #111;
     color:#fff;
     padding: 10px;
-    font-size: 25px;
     letter-spacing: 10px;
+
+    font-size:30px;
+    font-weight: 425;
+    text-transform: uppercase;
 }
 
 .button {
@@ -92,11 +87,6 @@ h2 {
       background-position: left top;
       background-size: 100%;*/
     /*  overflow:hidden;*/
-}
-
-.container-full a {
-    color:#efefef;
-    text-decoration:none;
 }
 
 .quoteBox{

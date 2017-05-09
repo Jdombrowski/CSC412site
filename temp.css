@@ -1,19 +1,31 @@
 @import url(http://fonts.googleapis.com/css?family=Antic+Slab);
 /*TODO add form funcionality, update and add resume, form validation
   working button for forms, working panels*/
+html{
+    font-family: "futura";
+    text-decoration: none;
+}
 body {
     height:100%;
     text-align: center;	
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: fixed-center;
     background-image: url(SCCarousel.jpg);
     margin: auto;
     width: 100%;
 }
-
+body.about{
+    height:100%;
+    text-align: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed-center;
+    background-image: url(plum.jpg);
+    margin: auto;
+    width: 100%;
+}
 h1 {
-    font-family: "futura";
     font-size:80px;
     font-weight: 425;
     color:#DDCCEE;
@@ -21,18 +33,36 @@ h1 {
     letter-spacing: 0em;
 }
 h2 {
-    font-family: "din-condensed-web";
     font-size:30px;
     font-weight: 400;
     color:#DDCCEE;
     text-transform: uppercase;
     letter-spacing: 0em;
 }
+.aboutMe{ 
+    background-color: black;
+    opacity:50%;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    position: fixed;
+}
+.info{
+    background-color:#e6e6e6;
+    color: black;
+    max-width: 60%;
+    text-align: center;
+    font-size:40px;
+    font-weight: 300;
+    line-height: 70px;
+    border: 6px solid black;
+    bottom: 100px;
+}
 
 .caption{
-    position:absolute;
+    position:fixed;
     left:0;
-    top:48%;
+    top:30%;
     width:100%;
     color:#ddccee;
     font-family: "futura";
@@ -49,32 +79,26 @@ h2 {
     text-transform: uppercase;
 }
 
-.border2{
-    bottom = 0;
-    background-color: #111;
-    color:#fff;
-    padding: 10px;
-    letter-spacing: 10px;
-    font-size:18px;
-    font-weight: 425;
-    text-transform: uppercase;
-}
-
 .button {
-    background-color: #3E647F;
-    border-color: 2px solid #DDCCEE;
-    color: white;
+    background-color: #4dd2ff; 
+    border: solid 5px;
+    color: black;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 200;
     margin: 4px 2px;
     cursor: pointer;
+    transition-duration: 1s;
+    transition-timing-function: ease;
 }
 .button:hover{
     opacity: 50%;
-    size = 1.5;
+    size = 3;
+    border-color: white; 
+    color: #white; 
+    transform: scale(1.21);
 }
 
 /* Custom container */
@@ -82,11 +106,6 @@ h2 {
     margin: 0 auto;
     width: 100%;
     min-height:100%;
-    /*  background-image: url(SCCarousel.jpg);
-      background-repeat: no-repeat;
-      background-position: left top;
-      background-size: 100%;*/
-    /*  overflow:hidden;*/
 }
 
 .quoteBox{
@@ -106,10 +125,11 @@ h2 {
 }
 
 .mediaRow{
+    width:50%;
     bottom: 0;
-    margin:auto;
+    /*margin:auto;*/
     position: fixed;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .fa {
@@ -121,6 +141,8 @@ h2 {
     border-radius: 50%;
     transition-duration: 0.5s;
     transition-timing-function: ease;
+    position:bottom;
+    
 }
 .fa:hover {
     -webkit-transform: scale(1.21);
@@ -136,7 +158,8 @@ h2 {
     color: white;
 }
 .fa-github{
-    background: light-gray;
+    background: white;
+    border: solid;
 }
 .fa-instagram {
     background: #125688;

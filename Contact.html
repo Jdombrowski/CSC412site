@@ -1,26 +1,27 @@
 <!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href="temp.css">
-    <div class ="inputGroup">
-        <form id="contact_form" method="POST" action="insertform.php" >
-            <div class="row">
-                <label for="name">Your Name:</label><br />
-                <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-            </div>
+<link rel="stylesheet" type="text/css" href="Contact.css">
+<a href="Home.html"><IMG SRC="iconmonstr-arrow-68-240.png" ALT="backArrow" id="backArrow" WIDTH =32 HEIGHT =32>
+    </IMG>
+</a>
 
-            <div class="row">
-                <label for="email">Email:</label><br />
-                <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-            </div>
+<div class ="inputGroup">
+    <form id="contact_form" method="POST" action="insertform.php" >
+        <div class="row1">
+            <input id="name" class="input" name="name" type="text" value="" size="30" placeholder="Your Name" /><br />
+        </div>
 
-            <div class="row">
-                <label for="company">Company/Label Name:</label><br />
-                <input id="company" class="input" name="company" type="text" value="" size="30" /><br />
-            </div>
+        <div class="row2">
+            <input id="email" class="input" name="email" type="text" value="" size="30" placeholder="Your E-mail " /><br />
+        </div>
 
-            <div class="row">
-                <label for="message">Message:</label><br />
-                <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-            </div>
-            <input id="submit_button" type="submit" value="Send email" />
-        </form>
-    </div>
+        <div class="row3">
+            <input id="company" class="input" name="company" type="text" value="" size="30" placeholder="You Company/Label" /><br />
+        </div>
+
+        <div class="row4">
+            <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Just a short description of interest"></textarea><br />
+        </div>
+    </form>
+    <input id="submit_button" type="text" value="Submit" action="insertform.php" />
+
+</div>

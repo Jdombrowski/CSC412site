@@ -25,6 +25,7 @@ body.about{
     margin: auto;
     width: 100%;
 }
+
 h1 {
     font-size:80px;
     font-weight: 425;
@@ -38,14 +39,6 @@ h2 {
     color:#DDCCEE;
     text-transform: uppercase;
     letter-spacing: 0em;
-}
-.aboutMe{ 
-    background-color: black;
-    opacity:50%;
-    top: 50%;
-    left: 0;
-    text-align: center;
-    position: fixed;
 }
 .info{
     background-color:#e6e6e6;
@@ -72,10 +65,19 @@ h2 {
 .caption span.border{
     background-color: #111;
     color:#fff;
-    padding: 10px;
+    padding: 8px;
     letter-spacing: 10px;
     font-size:30px;
     font-weight: 425;
+    text-transform: uppercase;
+}
+.caption aside.border{
+    background-color: #111;
+    color:#fff;
+    padding: 0px;
+    letter-spacing:2px;
+    font-size: 18px;
+    font-weight: 350;
     text-transform: uppercase;
 }
 
@@ -142,7 +144,7 @@ h2 {
     transition-duration: 0.5s;
     transition-timing-function: ease;
     position:bottom;
-    
+
 }
 .fa:hover {
     -webkit-transform: scale(1.21);

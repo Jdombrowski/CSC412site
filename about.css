@@ -1,38 +1,16 @@
+html{
+    font-family: "futura";
+    text-decoration: none;
+}
 body {
     height:100%;
-    text-align: center; 
+    text-align: center;	
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: fixed-center;
-    background-image: url(landscapeBG.jpg);
+    background-position: center;
+    background-image: url(ferryb.jpg);
     margin: auto;
-    
-}
-.inputGroup{
-    opacity:30%;
-    position=bottom;
-    max-height: 50%;
-}
-
-.input[type=text]{
-    width: 30%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    background-color: #3CBC8D;
-    color: white;
-    font-size: 16px;
-}
-
-#backArrow{
-    position:left;
-}
-
-#message{
-    background-color: #3CBC8D;
-    overflow:auto;
-    resize:auto;
+    width: 100%;
 }
 
 .fa {

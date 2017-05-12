@@ -1,56 +1,27 @@
-@import url(http://fonts.googleapis.com/css?family=Antic+Slab);
-/*TODO add form funcionality, update and add resume, form validation
-  working button for forms, working panels*/
 html{
     font-family: "futura";
     text-decoration: none;
 }
 body {
-    height:100%;
+    max-height:300px;
     text-align: center;	
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: fixed-center;
-    background-image: url(SCCarousel.jpg);
+    background-position: center;
+    background-image: url(ferryb.jpg);
     margin: auto;
-    width: 100%;
-}
-
-
-h1 {
-    font-size:80px;
-    font-weight: 425;
-    color:#DDCCEE;
-    text-transform: uppercase;
-    letter-spacing: 0em;
-}
-h2 {
-    font-size:30px;
-    font-weight: 400;
-    color:#DDCCEE;
-    text-transform: uppercase;
-    letter-spacing: 0em;
-}
-.info{
-    background-color:#e6e6e6;
-    color: black;
-    max-width: 60%;
-    text-align: center;
-    font-size:40px;
-    font-weight: 300;
-    line-height: 70px;
-    border: 6px solid black;
-    bottom: 100px;
+    
 }
 
 .caption{
     position:fixed;
     left:0;
-    top:20%;
+    top:10%;
     width:100%;
     color:#ddccee;
     font-family: "futura";
     text-align: center;
+    margin:auto;
 }
 
 .caption span.border{
@@ -62,16 +33,29 @@ h2 {
     font-weight: 425;
     text-transform: uppercase;
     opacity: .9;
+    margin:auto;
+    overflow: scroll;
 }
-.caption aside.border{
-    background-color: #111;
-    color:#fff;
-    padding: 0px;
-    letter-spacing:2px;
-    font-size: 18px;
-    font-weight: 350;
-    text-transform: uppercase;
-    opacity: .9;ss
+
+.columnGroup{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    width:70%;
+    margin:auto;
+    background-color: white;
+    opacity: .9;
+    margin:auto;
+    overflow: scroll;
+}
+
+#wallOfText{
+    padding: 10px;
+    font-size:28px;
+    font-weight: 425;
+    text-align: left;
+    margin:auto;
+    color: black;
 }
 
 .button {
@@ -94,36 +78,6 @@ h2 {
     border-color: white; 
     color: #white; 
     transform: scale(1.21);
-}
-
-/* Custom container */
-.container-full{
-    margin: 0 auto;
-    width: 100%;
-    min-height:100%;
-}
-
-.quoteBox{
-    margin: 0 auto;
-    width: 100%;
-    min-height:100%;
-    background-image:url(ferryb.jpg) ; 
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-size: 100%;
-    overflow:hidden;
-}
-
-.v-center {
-    margin-top:0%;
-}
-
-.mediaRow{
-    width:50%;
-    bottom: 0;
-    /*margin:auto;*/
-    position: fixed;
-    /*text-align: center;*/
 }
 
 
@@ -163,4 +117,12 @@ h2 {
 .fa-linkedin {
     background: #007bb5;
     color: white;
+}
+
+.mediaRow{
+    width:50%;
+    bottom: 0;
+    /*margin:auto;*/
+    position: fixed;
+    /*text-align: center;*/
 }

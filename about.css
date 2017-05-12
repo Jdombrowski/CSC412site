@@ -45,7 +45,7 @@ body {
     margin:auto;
     background-color: white;
     opacity: .9;
-    margin:auto;
+    margin-bottom:150px;
     overflow: scroll;
 }
 
@@ -55,6 +55,7 @@ body {
     font-weight: 425;
     text-align: left;
     margin:auto;
+    margin-bottom: 150px;
     color: black;
 }
 

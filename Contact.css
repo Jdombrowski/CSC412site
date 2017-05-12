@@ -12,6 +12,7 @@ body {
     opacity:30%;
     position:left;
     max-height: 50%;
+    margin:auto;
 }
 
 .input[type=text]{
@@ -23,6 +24,7 @@ body {
     background-color: #3CBC8D;
     color: white;
     font-size: 18px;
+    margin:auto;
 }
 
 #backArrow{
@@ -37,6 +39,7 @@ body {
     width : 80%;
     color: white;
     font-size: 16px;
+    margin:auto;
 }
 
 .fa {

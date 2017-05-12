@@ -70,6 +70,7 @@ h2 {
     font-size:30px;
     font-weight: 425;
     text-transform: uppercase;
+    opacity: .9;
 }
 .caption aside.border{
     background-color: #111;
@@ -79,6 +80,7 @@ h2 {
     font-size: 18px;
     font-weight: 350;
     text-transform: uppercase;
+    opacity: .9;ss
 }
 
 .button {

@@ -185,6 +185,12 @@ header a:hover {
     cursor: pointer;
 }
 
+#backToHome:hover{
+    -webkit-transform: scale(1.21);
+    -ms-transform: scale(1.21);
+    transform: scale(1.21);
+}
+
 #buttonToContact{
     margin: auto;
     width:50%;

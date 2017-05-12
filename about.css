@@ -3,20 +3,20 @@ html{
     text-decoration: none;
 }
 body {
-    height:100%;
+    max-height:300px;
     text-align: center;	
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-image: url(ferryb.jpg);
     margin: auto;
-    width: 100%;
+    
 }
 
 .caption{
     position:fixed;
     left:0;
-    top:30%;
+    top:10%;
     width:100%;
     color:#ddccee;
     font-family: "futura";
@@ -34,22 +34,24 @@ body {
     text-transform: uppercase;
     opacity: .9;
     margin:auto;
+    overflow: scroll;
 }
 
 .columnGroup{
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
-    width:60%;
+    width:70%;
     margin:auto;
     background-color: white;
     opacity: .9;
     margin:auto;
+    overflow: scroll;
 }
 
 #wallOfText{
-    padding: 8px;
-    font-size:20px;
+    padding: 10px;
+    font-size:28px;
     font-weight: 425;
     text-align: left;
     margin:auto;
@@ -78,6 +80,7 @@ body {
     transform: scale(1.21);
 }
 
+
 .fa {
     padding: 30px;
     font-size: 30px;
@@ -87,7 +90,7 @@ body {
     border-radius: 50%;
     transition-duration: 0.5s;
     transition-timing-function: ease;
-    position:bottom;
+    position:bottom-middle;
 
 }
 .fa:hover {
@@ -114,4 +117,12 @@ body {
 .fa-linkedin {
     background: #007bb5;
     color: white;
+}
+
+.mediaRow{
+    width:50%;
+    bottom: 0;
+    /*margin:auto;*/
+    position: fixed;
+    /*text-align: center;*/
 }

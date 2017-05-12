@@ -15,16 +15,7 @@ body {
     margin: auto;
     width: 100%;
 }
-body.about{
-    height:100%;
-    text-align: center; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: fixed-center;
-    background-image: url(DSCF0148.jpg);
-    margin: auto;
-    width: 100%;
-}
+
 
 h1 {
     font-size:80px;
@@ -55,7 +46,7 @@ h2 {
 .caption{
     position:fixed;
     left:0;
-    top:30%;
+    top:20%;
     width:100%;
     color:#ddccee;
     font-family: "futura";
@@ -116,7 +107,6 @@ h2 {
     margin: 0 auto;
     width: 100%;
     min-height:100%;
-
     background-image:url(ferryb.jpg) ; 
     background-repeat: no-repeat;
     background-position: left top;
@@ -136,6 +126,7 @@ h2 {
     /*text-align: center;*/
 }
 
+
 .fa {
     padding: 30px;
     font-size: 30px;
@@ -145,7 +136,7 @@ h2 {
     border-radius: 50%;
     transition-duration: 0.5s;
     transition-timing-function: ease;
-    position:bottom;
+    position:bottom-middle;
 
 }
 .fa:hover {

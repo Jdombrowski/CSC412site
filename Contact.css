@@ -6,23 +6,23 @@ body {
     background-position: fixed-center;
     background-image: url(landscapeBG.jpg);
     margin: auto;
-    
+
 }
 .inputGroup{
     opacity:30%;
-    position=bottom;
+    position:left;
     max-height: 50%;
 }
 
 .input[type=text]{
-    width: 30%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: none;
     background-color: #3CBC8D;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #backArrow{
@@ -30,9 +30,13 @@ body {
 }
 
 #message{
+    font-family:futura;
     background-color: #3CBC8D;
     overflow:auto;
     resize:auto;
+    width : 80%;
+    color: white;
+    font-size: 16px;
 }
 
 .fa {
@@ -44,7 +48,7 @@ body {
     border-radius: 50%;
     transition-duration: 0.5s;
     transition-timing-function: ease;
-    position:bottom;
+    position:bottom-left;
 
 }
 .fa:hover {

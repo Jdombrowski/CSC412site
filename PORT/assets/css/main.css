@@ -22,7 +22,8 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #000000;
-    font-family: sans-serif;
+    font-family: futura;
+    font-weight: 500;
    -webkit-font-smoothing: antialiased; 
 }
 
@@ -173,6 +174,21 @@ header a:hover {
     height: 40px;
     cursor: pointer;
 }
+
+#buttonBackToHome {
+    position: absolute;
+    top: 10px;
+    right: 50%;
+    display: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#buttonToContact{
+    margin: auto;
+    width:50%;
+}   
 
 #pageNav {
     display: block;
@@ -764,4 +780,44 @@ div.thumbnail img {
         padding-bottom: 100%;
     }
 
+}
+/*..................................*/
+
+.fa {
+    position: left;
+    padding: 30px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    position:bottom;
+
+}
+.fa:hover {
+    -webkit-transform: scale(1.21);
+    -ms-transform: scale(1.21);
+    transform: scale(1.21);
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+.fa-github{
+    background: white;
+    border: solid;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
 }
